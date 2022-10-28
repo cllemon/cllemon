@@ -34,14 +34,8 @@ jobs:
         with:
           node-version: 16
 
-      - name: Go to the target directory
-        run: cd .github/me
-
-      - name: Install Packages
-        run: npm install
-
-      - name: Build docs
-        run: npm run docs:build
+      - name: Go to the target directory & Build
+        run: cd .github/me && npm install && npm run docs:build
 
       - name: Setup Github Pages
         uses: actions/configure-pages@v1
@@ -49,7 +43,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./.vitepress/dist
+          path: ./.github/me/docs/.vitepress/dist
 
       - name: Deploy to Github Pages
         id: deployment

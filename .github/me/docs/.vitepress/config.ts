@@ -1,4 +1,8 @@
 import { defineConfig } from "vitepress";
+import {
+  linkToCardPlugin,
+  LinkToCardPluginOptions,
+} from "@luckrya/markdown-it-link-to-card";
 
 export default defineConfig({
   title: " L.C ",
@@ -16,6 +20,8 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    outline: "deep",
+
     logo: "https://avatars.githubusercontent.com/u/47939992?s=40&u=dc595041d0cda12250b9ef4f06d07320e0af32ad&v=4",
 
     socialLinks: [{ icon: "github", link: "https://github.com/cllemon" }],
@@ -47,7 +53,10 @@ export default defineConfig({
 
   markdown: {
     config: (md) => {
-      // md.use((md) => {});
+      md.use<LinkToCardPluginOptions>(linkToCardPlugin, {
+        size: "small",
+        tag: "@",
+      });
     },
   },
 
