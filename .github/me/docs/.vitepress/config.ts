@@ -1,3 +1,7 @@
+import fs from "node:fs";
+import path from "node:path";
+import matter from "gray-matter";
+import { isPureObject } from "@luckrya/utility";
 import { defineConfig } from "vitepress";
 import {
   linkToCardPlugin,
@@ -64,5 +68,48 @@ export default defineConfig({
     server: {
       port: 2019,
     },
+  },
+
+  transformPageData: (pageData) => {
+    const articles = {};
+    const isMD = (p: string) => path.extname(p) === ".md"; // only .md
+    const isDirEntry = (p: string) => path.basename(p, ".md") === "index";
+    const ignoreDotVitepressDir = (p: string) => !p.includes(".vitepress");
+    const resolve = (...paths: string[]) =>
+      path.resolve(__dirname, "..", ...paths);
+    const readdir = (_path: string) =>
+      fs.readdirSync(_path, { encoding: "utf-8", withFileTypes: true });
+    readdir(resolve())
+      .filter((d) => d.isDirectory() && ignoreDotVitepressDir(d.name))
+      .forEach((d) => {
+        const timestamp = (t: string) => new Date(t).getTime();
+        const extractData = (dirPath: string) => {
+          return readdir(dirPath)
+            .map((d) => {
+              if (d.isSymbolicLink()) return;
+              if (d.isDirectory()) return extractData(resolve(dirPath, d.name));
+              if (isDirEntry(d.name)) return;
+              if (isMD(d.name))
+                return {
+                  ...matter(fs.readFileSync(resolve(dirPath, d.name), "utf-8"))
+                    .data,
+                  href: path
+                    .relative(resolve(dirPath), resolve(dirPath, d.name))
+                    .replace(".md", ""),
+                };
+            })
+            .flat(10)
+            .filter(isPureObject);
+        };
+        const data = extractData(resolve(d.name)).sort(
+          (a, b) => timestamp(b.date) - timestamp(a.date)
+        );
+        articles[d.name] = data;
+      });
+
+    return {
+      ...pageData,
+      articles,
+    };
   },
 });

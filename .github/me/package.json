@@ -7,6 +7,9 @@
   },
   "devDependencies": {
     "@luckrya/markdown-it-link-to-card": "^0.1.5",
+    "@luckrya/utility": "^0.1.1",
+    "@types/node": "^18.11.7",
+    "gray-matter": "^4.0.3",
     "vitepress": "^1.0.0-alpha.19"
   },
   "pnpm": {
