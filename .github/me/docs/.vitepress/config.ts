@@ -46,7 +46,7 @@ export default defineConfig({
         ],
       },
       { text: "摄影", link: "/photography" },
-      { text: "关于", link: "/" },
+      { text: "关于", link: "/index" },
     ],
 
     footer: {

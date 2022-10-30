@@ -9,23 +9,34 @@ const props = defineProps<{
 const { page } = useData();
 const archives = computed(() => {
   const list = (page.value as any).articles?.[props.name] || [];
-  return list.reduce((pre, cur) => {
+  const result = list.reduce((pre, cur) => {
     const year = new Date(cur.date || new Date()).getFullYear();
     const orginYear = pre[year] ? pre[year] : [];
     pre[year] = orginYear.concat(cur);
     return pre;
   }, {});
+  return descendingOrder(result);
 });
 const date = (d: string) =>
   new Date(d).toDateString().split(" ").slice(0, 3).join(" ");
+
+const descendingOrder = (archives: Record<string, unknown>) => {
+  return Object.entries(archives)
+    .map(([k, v]) => ({ title: k, articles: v }))
+    .sort((a, b) => +b.title - +a.title);
+};
 </script>
 
 <template>
   <section class="archives">
-    <template :key="key" v-for="(archive, key) in archives">
-      <h3 class="title">{{ key }}</h3>
+    <template v-for="(archive, index) of archives" :key="index">
+      <h3 class="title">{{ archive.title }}</h3>
       <ul class="archive">
-        <li v-for="article of archive" :key="article.title" class="article">
+        <li
+          v-for="article of archive.articles"
+          :key="article.title"
+          class="article"
+        >
           <a class="article-title" :href="`./${article.href}`">
             <sup class="source" v-if="article.source">{{ article.source }}</sup>
             {{ article.title }}

@@ -2,6 +2,7 @@ import "./custom.css";
 import DefaultTheme from "vitepress/theme";
 import Archives from "./components/Archives.vue";
 import Tags from "./components/tags.vue";
+import Languages from "./components/Languages.vue";
 
 // https://vitepress.vuejs.org/guide/theme-introduction#using-a-custom-theme
 export default {
@@ -9,5 +10,6 @@ export default {
   enhanceApp({ app }) {
     app.component("Archives", Archives);
     app.component("Tags", Tags);
+    app.component("Languages", Languages);
   },
 };
