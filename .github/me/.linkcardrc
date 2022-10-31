@@ -1,0 +1,584 @@
+{
+  "https://tinypng.com": {
+    "title": "TinyPNG – Compress WebP, PNG and JPEG images intelligently",
+    "logo": "https://resources.whatwg.org/logo-url.svg"
+  },
+  "https://caniuse.com": {
+    "title": "Can I use... Support tables for HTML5, CSS3, etc",
+    "logo": "https://caniuse.com/img/favicon-128.png\" sizes=\"16x16 32x32 64x64 128x128\" type=\"image/png"
+  },
+  "http://www.getmarkman.com": {
+    "logo": "http://www.getmarkman.com/static/favicon.ico\" rel=\"icon\" type=\"image/icon"
+  },
+  "https://node.green": {
+    "logo": "https://node.green/favico.ico\" rel=\"shortcut icon"
+  },
+  "https://bundlephobia.com/": {
+    "title": "Bundlephobia | Size of npm dependencies",
+    "description": "Bundlephobia helps you find the performance impact of npm packages. Find the size of any javascript package and its effect on your frontend bundle.",
+    "logo": "https://bundlephobia.com/android-chrome-256x256.png"
+  },
+  "https://npms.io/": {
+    "title": "npms",
+    "description": "npms was built to empower the javascript community by providing a better and open sourced search for node modules.",
+    "logo": "https://resources.whatwg.org/logo-url.svg"
+  },
+  "https://zhuanlan.zhihu.com/p/389935233": {
+    "title": "现代 Web 开发困境与破局",
+    "description": "万字长文，坚持读完的有福利（末尾有招聘贴和内推福利）。导读2021 年，Web 开发整体上仍然处于比较低效的状态，各种开发，部署工具仍未很好的收敛，开发者仍然要面对选择框架，选择各种库，选择部署方式，沟通前…",
+    "logo": "https://pic1.zhimg.com/v2-ad944b96aca7379221446c1ae898fc98_720w.jpg?source=172ae18b"
+  },
+  "https://github.com/nusr/hacker-laws-zh": {
+    "title": "GitHub - nusr/hacker-laws-zh: 💻📖对开发人员有用的定律、理论、原则和模式。(Laws, Theories, Principles and Patterns that developers will find useful.)",
+    "description": "💻📖对开发人员有用的定律、理论、原则和模式。(Laws, Theories, Principles and Patterns that developers will find useful.) - GitHub - nusr/hacker-laws-zh: 💻📖对开发人员有用的定律、理论、原则和模式。(Laws, Theories, Principles and Patterns that developers will find useful.)",
+    "logo": "https://opengraph.githubassets.com/a768c8c98afbb387162b5d6ad8617c0f5538cb9c5ea3d73efbc3b11d40ad98e0/nusr/hacker-laws-zh"
+  },
+  "https://angular.io/": {
+    "title": "Angular",
+    "logo": "https://angular.io/assets/images/favicons/favicon.ico"
+  },
+  "https://reactjs.org/": {
+    "title": "React – A JavaScript library for building user interfaces",
+    "description": "A JavaScript library for building user interfaces",
+    "logo": "https://reactjs.org/logo-og.png"
+  },
+  "https://v2.vuejs.org/": {
+    "title": "Vue.js",
+    "description": "Vue.js - The Progressive JavaScript Framework",
+    "logo": "https://vuejs.org/images/logo.png"
+  },
+  "https://vuejs.org/": {
+    "title": "Vue.js - The Progressive JavaScript Framework | Vue.js",
+    "description": "Vue.js - The Progressive JavaScript Framework",
+    "logo": "https://vuejs.org/images/logo.png"
+  },
+  "https://svelte.dev/": {
+    "title": "Svelte\" data-svelte=\"svelte-15jcuzn",
+    "description": "Cybernetically enhanced web apps\" data-svelte=\"svelte-15jcuzn",
+    "logo": "https://svelte.dev/images/twitter-thumbnail.jpg"
+  },
+  "https://qwik.builder.io/": {
+    "title": "Framework reimagined for the edge! - Qwik",
+    "description": "No hydration, auto lazy-loading, edge-optimized, and fun 🎉!",
+    "logo": "https://qwik.builder.io/logos/social-card.png?v=3"
+  },
+  "https://github.com/vitejs/vite": {
+    "title": "GitHub - vitejs/vite: Next generation frontend tooling. It&#39;s fast!",
+    "description": "Next generation frontend tooling. It&#39;s fast! Contribute to vitejs/vite development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/eb41b112714259b76afaf88c5819c5e0ed0e161938b993dedbe2abe46f3ea85a/vitejs/vite"
+  },
+  "https://github.com/FredKSchott/snowpack": {
+    "title": "GitHub - FredKSchott/snowpack: ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️",
+    "description": "ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️ - GitHub - FredKSchott/snowpack: ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️",
+    "logo": "https://opengraph.githubassets.com/4716e4be362c2173ec25d83f0a5f880046bb3c3578276e5cdf6964f028121d1d/FredKSchott/snowpack"
+  },
+  "https://github.com/parcel-bundler/parcel": {
+    "title": "GitHub - parcel-bundler/parcel: The zero configuration build tool for the web. 📦🚀",
+    "description": "The zero configuration build tool for the web. 📦🚀. Contribute to parcel-bundler/parcel development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/2c3d6e8e8549914163f43169d8d2604d222dcd7369e24068d8e48d1869d2e2ab/parcel-bundler/parcel"
+  },
+  "https://github.com/webpack/webpack": {
+    "title": "GitHub - webpack/webpack: A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through &quot;loaders&quot;, modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+    "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through &quot;loaders&quot;, modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff. - GitHub - webpack/webpack: A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through &quot;loaders&quot;, modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+    "logo": "https://opengraph.githubassets.com/224d0c0eb1bec71c2c4381567996e82d8ac5a3f50d851d01156f499aec872052/webpack/webpack"
+  },
+  "https://github.com/rollup/rollup": {
+    "title": "GitHub - rollup/rollup: Next-generation ES module bundler",
+    "description": "Next-generation ES module bundler. Contribute to rollup/rollup development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/569ae4add18751e6db4bec214870d9753a9d80c290461f4804d0586702d9d2c4/rollup/rollup"
+  },
+  "https://github.com/egoist/tsup": {
+    "title": "GitHub - egoist/tsup: The simplest and fastest way to bundle your TypeScript libraries.",
+    "description": "The simplest and fastest way to bundle your TypeScript libraries. - GitHub - egoist/tsup: The simplest and fastest way to bundle your TypeScript libraries.",
+    "logo": "https://opengraph.githubassets.com/8417bcdda8433c62b1eb1f25572d276c2e7cbc350dbd7a4451ae44270b90d089/egoist/tsup"
+  },
+  "https://github.com/babel/babel": {
+    "title": "GitHub - babel/babel: 🐠 Babel is a compiler for writing next generation JavaScript.",
+    "description": "🐠 Babel is a compiler for writing next generation JavaScript. - GitHub - babel/babel: 🐠 Babel is a compiler for writing next generation JavaScript.",
+    "logo": "https://opengraph.githubassets.com/e66da96a8358ad8527ad4bcb7e0f7166478f56a0f1e537dcd67c0b1502c3084c/babel/babel"
+  },
+  "https://github.com/evanw/esbuild": {
+    "title": "GitHub - evanw/esbuild: An extremely fast JavaScript and CSS bundler and minifier",
+    "description": "An extremely fast JavaScript and CSS bundler and minifier - GitHub - evanw/esbuild: An extremely fast JavaScript and CSS bundler and minifier",
+    "logo": "https://opengraph.githubassets.com/e109399c947c792da1e608841f3387987aefc49ada3e8996bb4361321f14b401/evanw/esbuild"
+  },
+  "https://github.com/swc-project/swc": {
+    "title": "GitHub - swc-project/swc: Rust-based platform for the Web",
+    "description": "Rust-based platform for the Web. Contribute to swc-project/swc development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/36a5de54e3a3da67afc603fdd90b3ecdbbf95d43d9e44b108cbc6084a7f9ba0f/swc-project/swc"
+  },
+  "https://github.com/microsoft/TypeScript": {
+    "title": "GitHub - microsoft/TypeScript: TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+    "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output. - GitHub - microsoft/TypeScript: TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+    "logo": "https://opengraph.githubassets.com/01c42b6fc20ba352d2a892e56692c62ce9e185339dd0e4a9bf4ef3b5914d709c/microsoft/TypeScript"
+  },
+  "https://github.com/alangpierce/sucrase": {
+    "title": "GitHub - alangpierce/sucrase: Super-fast alternative to Babel for when you can target modern JS runtimes",
+    "description": "Super-fast alternative to Babel for when you can target modern JS runtimes - GitHub - alangpierce/sucrase: Super-fast alternative to Babel for when you can target modern JS runtimes",
+    "logo": "https://opengraph.githubassets.com/13077593c9a67cb5dce9f4473a6b9398c033974812d683537555ae33678fa832/alangpierce/sucrase"
+  },
+  "https://github.com/lebab/lebab": {
+    "title": "GitHub - lebab/lebab: Turn your ES5 code into readable ES6. Lebab does the opposite of what Babel does.",
+    "description": "Turn your ES5 code into readable ES6. Lebab does the opposite of what Babel does. - GitHub - lebab/lebab: Turn your ES5 code into readable ES6. Lebab does the opposite of what Babel does.",
+    "logo": "https://opengraph.githubassets.com/3f11ee79d2de2e59cf9ac8739f087443a5722b15dd17a7fae18435393ead4b20/lebab/lebab"
+  },
+  "https://github.com/Tencent/feflow": {
+    "title": "GitHub - Tencent/feflow: 🚀 A command line tool aims to improve front-end engineer workflow and standard, powered by TypeScript.",
+    "description": "🚀 A command line tool aims to improve front-end engineer workflow and standard, powered by TypeScript. - GitHub - Tencent/feflow: 🚀 A command line tool aims to improve front-end engineer workflow and standard, powered by TypeScript.",
+    "logo": "https://opengraph.githubassets.com/a7f1baf465f4c91d41cb012c59ad06a26101c7bab7dc047cb4f77c68769d66aa/Tencent/feflow"
+  },
+  "https://github.com/umijs/father": {
+    "title": "GitHub - umijs/father: NPM package development tool",
+    "description": "NPM package development tool. Contribute to umijs/father development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/d53af2be8795dcad5792bf735bc964c6a698ad011309e7b3718e40c36c3267b0/umijs/father"
+  },
+  "https://github.com/antfu/unplugin-auto-import": {
+    "title": "GitHub - antfu/unplugin-auto-import: Auto import APIs on-demand for Vite, Webpack and Rollup",
+    "description": "Auto import APIs on-demand for Vite, Webpack and Rollup - GitHub - antfu/unplugin-auto-import: Auto import APIs on-demand for Vite, Webpack and Rollup",
+    "logo": "https://opengraph.githubassets.com/8de3c4ccb1feab16696e62b6c640c6a92e27b8388aacf125d5ce6a6ed7e2436a/antfu/unplugin-auto-import"
+  },
+  "https://github.com/tj/commander.js": {
+    "title": "GitHub - tj/commander.js: node.js command-line interfaces made easy",
+    "description": "node.js command-line interfaces made easy. Contribute to tj/commander.js development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/92af8bec9f3fdbda37d68ef02b6767458b3c88261300431ef1318ac09a1fcaf7/tj/commander.js"
+  },
+  "https://github.com/yargs/yargs": {
+    "title": "GitHub - yargs/yargs: yargs the modern, pirate-themed successor to optimist.",
+    "description": " yargs the modern, pirate-themed successor to optimist. - GitHub - yargs/yargs: yargs the modern, pirate-themed successor to optimist.",
+    "logo": "https://opengraph.githubassets.com/4df9a5fb86b9c05c5564176ec0e7e603f7e48b540da7b9c5e575881a5833322f/yargs/yargs"
+  },
+  "https://github.com/cacjs/cac": {
+    "title": "GitHub - cacjs/cac: Simple yet powerful framework for building command-line apps.",
+    "description": "Simple yet powerful framework for building command-line apps. - GitHub - cacjs/cac: Simple yet powerful framework for building command-line apps.",
+    "logo": "https://opengraph.githubassets.com/2549ec56104606a1db6d16b70b62e0e041f2b5109596e7a05e6c93f13218bcb1/cacjs/cac"
+  },
+  "https://github.com/SBoudrias/Inquirer.js": {
+    "title": "GitHub - SBoudrias/Inquirer.js: A collection of common interactive command line user interfaces.",
+    "description": "A collection of common interactive command line user interfaces. - GitHub - SBoudrias/Inquirer.js: A collection of common interactive command line user interfaces.",
+    "logo": "https://opengraph.githubassets.com/e9b52e70b9c1bd8390419bb480acdb63924253be4eba172791a0ef19ed432b55/SBoudrias/Inquirer.js"
+  },
+  "https://github.com/enquirer/enquirer": {
+    "title": "GitHub - enquirer/enquirer: Stylish, intuitive and user-friendly prompts, for Node.js. Used by eslint, webpack, yarn, pm2, pnpm, RedwoodJS, FactorJS, salesforce, Cypress, Google Lighthouse, Generate, tencent cloudbase, lint-staged, gluegun, hygen, hardhat, AWS Amplify, GitHub Actions Toolkit, @airbnb/nimbus, and many others! Please follow Enquirer&#39;s author: https://github.com/jonschlinkert",
+    "description": "Stylish, intuitive and user-friendly prompts, for Node.js. Used by eslint, webpack, yarn, pm2, pnpm, RedwoodJS, FactorJS, salesforce, Cypress, Google Lighthouse, Generate, tencent cloudbase, lint-staged, gluegun, hygen, hardhat, AWS Amplify, GitHub Actions Toolkit, @airbnb/nimbus, and many others! Please follow Enquirer&#39;s author: https://github.com/jonschlinkert - GitHub - enquirer/enquirer: Stylish, intuitive and user-friendly prompts, for Node.js. Used by eslint, webpack, yarn, pm2, pnpm, RedwoodJS, FactorJS, salesforce, Cypress, Google Lighthouse, Generate, tencent cloudbase, lint-staged, gluegun, hygen, hardhat, AWS Amplify, GitHub Actions Toolkit, @airbnb/nimbus, and many others! Please follow Enquirer&#39;s author: https://github.com/jonschlinkert",
+    "logo": "https://opengraph.githubassets.com/9fb9959a56be6decee26154f5ec2a2eef80584b0cb3d3638d20ec02033f48ee7/enquirer/enquirer"
+  },
+  "https://github.com/terkelg/prompts": {
+    "title": "GitHub - terkelg/prompts: ❯ Lightweight, beautiful and user-friendly interactive prompts",
+    "description": "❯ Lightweight, beautiful and user-friendly interactive prompts - GitHub - terkelg/prompts: ❯ Lightweight, beautiful and user-friendly interactive prompts",
+    "logo": "https://repository-images.githubusercontent.com/122728925/da5a2100-6b7b-11e9-9e06-f630acb94186"
+  },
+  "https://github.com/minimistjs/minimist": {
+    "title": "GitHub - minimistjs/minimist: parse argument options",
+    "description": "parse argument options. Contribute to minimistjs/minimist development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/15fe5c72591a1eef30db6e57cd7a82ae751b67a05f1865540bd47cb1fa38a024/minimistjs/minimist"
+  },
+  "https://github.com/chalk/chalk": {
+    "title": "GitHub - chalk/chalk: 🖍 Terminal string styling done right",
+    "description": "🖍 Terminal string styling done right. Contribute to chalk/chalk development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/e2dc82d01c0968989b923d03c926122658fe3292290c03498121b9dfcac9ff1e/chalk/chalk"
+  },
+  "https://github.com/jprichardson/node-fs-extra": {
+    "title": "GitHub - jprichardson/node-fs-extra: Node.js: extra methods for the fs object like copy(), remove(), mkdirs()",
+    "description": "Node.js: extra methods for the fs object like copy(), remove(), mkdirs() - GitHub - jprichardson/node-fs-extra: Node.js: extra methods for the fs object like copy(), remove(), mkdirs()",
+    "logo": "https://opengraph.githubassets.com/bad85374740dc07f5cc4cb9ee9a0ba3a635fa13b5dd0f418184c4cdd9b269797/jprichardson/node-fs-extra"
+  },
+  "https://github.com/sindresorhus/execa": {
+    "title": "GitHub - sindresorhus/execa: Process execution for humans",
+    "description": "Process execution for humans. Contribute to sindresorhus/execa development by creating an account on GitHub.",
+    "logo": "https://repository-images.githubusercontent.com/47475908/a11f9000-b3ba-11e9-97db-972f10afb149"
+  },
+  "https://github.com/vercel/update-check": {
+    "title": "GitHub - vercel/update-check: Minimalistic update notifications for command line interfaces",
+    "description": "Minimalistic update notifications for command line interfaces - GitHub - vercel/update-check: Minimalistic update notifications for command line interfaces",
+    "logo": "https://opengraph.githubassets.com/8aebacae129e6235a5a151a9dfdd9cf53f879178728d7334091d2acd37bce4ee/vercel/update-check"
+  },
+  "https://github.com/vuejs/vue-cli": {
+    "title": "GitHub - vuejs/vue-cli: 🛠️ webpack-based tooling for Vue.js Development",
+    "description": "🛠️ webpack-based tooling for Vue.js Development. Contribute to vuejs/vue-cli development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/f0eea5aad4f6545fda606ef97529cfe4482b1a1ff7a64ad5f620faa476e0b5ff/vuejs/vue-cli"
+  },
+  "https://github.com/facebook/create-react-app": {
+    "title": "GitHub - facebook/create-react-app: Set up a modern web app by running one command.",
+    "description": "Set up a modern web app by running one command. Contribute to facebook/create-react-app development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/4393ccc09e563128125c070a6f7b1a66c4f16b91d7e4cdcf2fd5d00479494ea6/facebook/create-react-app"
+  },
+  "https://github.com/nodejs/changelog-maker": {
+    "title": "GitHub - nodejs/changelog-maker: A git log to CHANGELOG.md tool",
+    "description": "A git log to CHANGELOG.md tool. Contribute to nodejs/changelog-maker development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/0a6593b6702c1ff1e19644432055eda2697beed06d9b97b9efa8a161a5208fdb/nodejs/changelog-maker"
+  },
+  "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli": {
+    "title": "conventional-changelog/packages/conventional-changelog-cli at master · conventional-changelog/conventional-changelog",
+    "description": "Generate changelogs and release notes from a project&#39;s commit messages and metadata. - conventional-changelog/packages/conventional-changelog-cli at master · conventional-changelog/conventional-changelog",
+    "logo": "https://opengraph.githubassets.com/b04c39b520cdd067c35a173a0b79102f12d3c094380b873683b7e0869cc1c201/conventional-changelog/conventional-changelog"
+  },
+  "https://github.com/semver/semver": {
+    "title": "GitHub - semver/semver: Semantic Versioning Specification",
+    "description": "Semantic Versioning Specification. Contribute to semver/semver development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/c09c124967154dfbc7d7e39a685a2467ceeec62ba26834a763916bfd74df4f96/semver/semver"
+  },
+  "https://github.com/npm/node-semver": {
+    "title": "GitHub - npm/node-semver: The semver parser for node (the one npm uses)",
+    "description": "The semver parser for node (the one npm uses). Contribute to npm/node-semver development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/e89290668e498a111f0381bf12c01ce575d6bec7b2c1c02b6505801fa8ffc866/npm/node-semver"
+  },
+  "https://github.com/vercel/release": {
+    "title": "GitHub - vercel/release: Generate changelogs with a single command",
+    "description": "Generate changelogs with a single command. Contribute to vercel/release development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/88e7e15947873eebbbdd139cca1af1231f69ce8a4f5a071b816ca3001c4c3b67/vercel/release"
+  },
+  "https://github.com/changesets/changesets": {
+    "title": "GitHub - changesets/changesets: 🦋       A way to manage your versioning and changelogs with a focus on monorepos",
+    "description": "🦋       A way to manage your versioning and changelogs with a focus on monorepos - GitHub - changesets/changesets: 🦋       A way to manage your versioning and changelogs with a focus on monorepos",
+    "logo": "https://opengraph.githubassets.com/9d929a2bc04a33edbd469c92be3f306c8fec219835c1eea20628f169531568c2/changesets/changesets"
+  },
+  "https://eslint.org/": {
+    "title": "Find and fix problems in your JavaScript code - ESLint - Pluggable JavaScript Linter",
+    "description": "A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.\n",
+    "logo": "https://eslint.org/icon-512.png"
+  },
+  "https://prettier.io/": {
+    "title": "Prettier · Opinionated Code Formatter",
+    "description": "Opinionated Code Formatter",
+    "logo": "https://prettier.io/icon.png"
+  },
+  "https://github.com/prettier/eslint-plugin-prettier": {
+    "title": "GitHub - prettier/eslint-plugin-prettier: ESLint plugin for Prettier formatting",
+    "description": "ESLint plugin for Prettier formatting. Contribute to prettier/eslint-plugin-prettier development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/bc5721429dc60bc84cc7cd3aa1419074126727d415de4ebeb847f8584b284011/prettier/eslint-plugin-prettier"
+  },
+  "https://github.com/prettier/eslint-config-prettier": {
+    "title": "GitHub - prettier/eslint-config-prettier: Turns off all rules that are unnecessary or might conflict with Prettier.",
+    "description": "Turns off all rules that are unnecessary or might conflict with Prettier. - GitHub - prettier/eslint-config-prettier: Turns off all rules that are unnecessary or might conflict with Prettier.",
+    "logo": "https://opengraph.githubassets.com/7683f3c8f19ac6011f9b62dbbbede1cc0b51c8cf020d140fc8b04d5948af0f63/prettier/eslint-config-prettier"
+  },
+  "https://github.com/standard/eslint-config-standard": {
+    "title": "GitHub - standard/eslint-config-standard: ESLint Config for JavaScript Standard Style",
+    "description": "ESLint Config for JavaScript Standard Style. Contribute to standard/eslint-config-standard development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/2bb2a8309d2e307c26ba577731790e24a8fbb8ec6568d633e142afde5a71dfee/standard/eslint-config-standard"
+  },
+  "https://github.com/google/eslint-config-google": {
+    "title": "GitHub - google/eslint-config-google: ESLint shareable config for the Google JavaScript style guide",
+    "description": "ESLint shareable config for the Google JavaScript style guide - GitHub - google/eslint-config-google: ESLint shareable config for the Google JavaScript style guide",
+    "logo": "https://opengraph.githubassets.com/949d90ce0f58497821e91bea9813a3bddfd6ce1ec3f827f71272332098476435/google/eslint-config-google"
+  },
+  "https://github.com/BenoitZugmeyer/eslint-plugin-html": {
+    "title": "GitHub - BenoitZugmeyer/eslint-plugin-html: An ESLint plugin to extract and lint scripts from HTML files.",
+    "description": "An ESLint plugin to extract and lint scripts from HTML files. - GitHub - BenoitZugmeyer/eslint-plugin-html: An ESLint plugin to extract and lint scripts from HTML files.",
+    "logo": "https://opengraph.githubassets.com/c3668915c4443d3d97def62ccea87ab0815b07ba6b13a6bf4e439b1a390ad61c/BenoitZugmeyer/eslint-plugin-html"
+  },
+  "https://github.com/import-js/eslint-plugin-import": {
+    "title": "GitHub - import-js/eslint-plugin-import: ESLint plugin with rules that help validate proper imports.",
+    "description": "ESLint plugin with rules that help validate proper imports. - GitHub - import-js/eslint-plugin-import: ESLint plugin with rules that help validate proper imports.",
+    "logo": "https://opengraph.githubassets.com/737d414644aaa039b1a1d76ec94325914c3982c34207a03df2a4a825e09d4986/import-js/eslint-plugin-import"
+  },
+  "https://github.com/jest-community/eslint-plugin-jest": {
+    "title": "GitHub - jest-community/eslint-plugin-jest: ESLint plugin for Jest",
+    "description": "ESLint plugin for Jest . Contribute to jest-community/eslint-plugin-jest development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/582a1e90f4432fd22d35d3d05cf80a6e58159148b06cffcf38f6a81a1b12a416/jest-community/eslint-plugin-jest"
+  },
+  "https://github.com/eslint/eslint-plugin-markdown": {
+    "title": "GitHub - eslint/eslint-plugin-markdown: Lint JavaScript code blocks in Markdown documents",
+    "description": "Lint JavaScript code blocks in Markdown documents. Contribute to eslint/eslint-plugin-markdown development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/30347e43d43a5cc3a6ff8c284c9b2ca6d42b0a015e8bb5fc1863db77931de014/eslint/eslint-plugin-markdown"
+  },
+  "https://github.com/ota-meshi/eslint-plugin-jsonc": {
+    "title": "GitHub - ota-meshi/eslint-plugin-jsonc: ESLint plugin for JSON(C|5)? files",
+    "description": "ESLint plugin for JSON(C|5)? files. Contribute to ota-meshi/eslint-plugin-jsonc development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/67c418f04c29050d72750c859c194c1dff85988a6b7913f8409ad84cf621694d/ota-meshi/eslint-plugin-jsonc"
+  },
+  "https://github.com/eslint-community/eslint-plugin-n": {
+    "title": "GitHub - eslint-community/eslint-plugin-n: Additional ESLint&#39;s rules for Node.js",
+    "description": "Additional ESLint&#39;s rules for Node.js. Contribute to eslint-community/eslint-plugin-n development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/38e5b369414ecf86a9aca40ba273d9cf39862e3f752d29f5e52738d2a57e59f9/eslint-community/eslint-plugin-n"
+  },
+  "https://github.com/eslint-community/eslint-plugin-promise": {
+    "title": "GitHub - eslint-community/eslint-plugin-promise: Enforce best practices for JavaScript promises",
+    "description": "Enforce best practices for JavaScript promises. Contribute to eslint-community/eslint-plugin-promise development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/71b1f8da145f6e4157cd201b03586f02857d0498e8a604064f03c9b83501a43d/eslint-community/eslint-plugin-promise"
+  },
+  "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y": {
+    "title": "GitHub - jsx-eslint/eslint-plugin-jsx-a11y: Static AST checker for a11y rules on JSX elements.",
+    "description": "Static AST checker for a11y rules on JSX elements. - GitHub - jsx-eslint/eslint-plugin-jsx-a11y: Static AST checker for a11y rules on JSX elements.",
+    "logo": "https://opengraph.githubassets.com/d00711153e4df3d29b115a35c02da8b38c431d307e95217b4ed34ebb845e5bfd/jsx-eslint/eslint-plugin-jsx-a11y"
+  },
+  "https://github.com/jsx-eslint/eslint-plugin-react": {
+    "title": "GitHub - jsx-eslint/eslint-plugin-react: React-specific linting rules for ESLint",
+    "description": "React-specific linting rules for ESLint. Contribute to jsx-eslint/eslint-plugin-react development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/cbe3b6d2631ba278e4a19b7bc1a48a7557eddd6bbea8f38a3d68c3ac476077ec/jsx-eslint/eslint-plugin-react"
+  },
+  "https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks": {
+    "title": "react/packages/eslint-plugin-react-hooks at main · facebook/react",
+    "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces. - react/packages/eslint-plugin-react-hooks at main · facebook/react",
+    "logo": "https://opengraph.githubassets.com/5c96096e5c311fc5443b2ed48d8e4849a170372e376af553199b508d26274580/facebook/react"
+  },
+  "https://github.com/sindresorhus/eslint-plugin-unicorn": {
+    "title": "GitHub - sindresorhus/eslint-plugin-unicorn: More than 100 powerful ESLint rules",
+    "description": "More than 100 powerful ESLint rules. Contribute to sindresorhus/eslint-plugin-unicorn development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/648e715afa3c96461e06550dd0a788ffa327f99c214f6f921565f01122617a84/sindresorhus/eslint-plugin-unicorn"
+  },
+  "https://github.com/vuejs/eslint-plugin-vue": {
+    "title": "GitHub - vuejs/eslint-plugin-vue: Official ESLint plugin for Vue.js",
+    "description": "Official ESLint plugin for Vue.js. Contribute to vuejs/eslint-plugin-vue development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/c09f069e21620494789b6bf54d8b716da598bac4c6f5c013224ceea89289b6f2/vuejs/eslint-plugin-vue"
+  },
+  "https://github.com/ota-meshi/eslint-plugin-yml": {
+    "title": "GitHub - ota-meshi/eslint-plugin-yml: This ESLint plugin provides linting rules for YAML.",
+    "description": "This ESLint plugin provides linting rules for YAML. - GitHub - ota-meshi/eslint-plugin-yml: This ESLint plugin provides linting rules for YAML.",
+    "logo": "https://opengraph.githubassets.com/2b08dd78010782b0593e3649a833e2e83a14470b81027ed703ffd6c7de9ff3ff/ota-meshi/eslint-plugin-yml"
+  },
+  "https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin": {
+    "title": "typescript-eslint/packages/eslint-plugin at main · typescript-eslint/typescript-eslint",
+    "description": ":sparkles: Monorepo for all the tooling which enables ESLint to support TypeScript - typescript-eslint/packages/eslint-plugin at main · typescript-eslint/typescript-eslint",
+    "logo": "https://opengraph.githubassets.com/cbfcd02dbc2a11e7f409abbaac225dcf8613eb2b76cdce9a993e0c1b1d7d3f81/typescript-eslint/typescript-eslint"
+  },
+  "https://github.com/gajus/eslint-plugin-jsdoc": {
+    "title": "GitHub - gajus/eslint-plugin-jsdoc: JSDoc specific linting rules for ESLint.",
+    "description": "JSDoc specific linting rules for ESLint. Contribute to gajus/eslint-plugin-jsdoc development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/66707e13439f1cd209db1970c5224546d3696a580b6c2c4a695903a3b66f950c/gajus/eslint-plugin-jsdoc"
+  },
+  "https://github.com/mysticatea/eslint-plugin-eslint-comments": {
+    "title": "GitHub - mysticatea/eslint-plugin-eslint-comments: Additional ESLint rules for directive comments of ESLint.",
+    "description": "Additional ESLint rules for directive comments of ESLint. - GitHub - mysticatea/eslint-plugin-eslint-comments: Additional ESLint rules for directive comments of ESLint.",
+    "logo": "https://opengraph.githubassets.com/c0ebc32e624205ae7b0062a960e3c61d1b5c9e531530fa8c585ab659547d48c1/mysticatea/eslint-plugin-eslint-comments"
+  },
+  "https://github.com/typicode/husky": {
+    "title": "GitHub - typicode/husky: Git hooks made easy 🐶 woof!",
+    "description": "Git hooks made easy 🐶 woof! Contribute to typicode/husky development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/87e2e553fa5561866a228542d55407c0909e13787a7fac70bfc28970b807e530/typicode/husky"
+  },
+  "https://github.com/okonet/lint-staged": {
+    "title": "GitHub - okonet/lint-staged: 🚫💩 — Run linters on git staged files",
+    "description": "🚫💩 — Run linters on git staged files. Contribute to okonet/lint-staged development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/a68ff84ee4da63bfc796ae488fe7c760abd3b9b78988237993c6ac73906fffd4/okonet/lint-staged"
+  },
+  "https://github.com/vuejs/core/blob/main/.github/commit-convention.md": {
+    "title": "core/commit-convention.md at main · vuejs/core",
+    "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web. - core/commit-convention.md at main · vuejs/core",
+    "logo": "https://opengraph.githubassets.com/ddf723b4b4e00dd1b040d43d45bd06615e4adc0f793280bcd4ca8bc734f55337/vuejs/core"
+  },
+  "https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format": {
+    "title": "angular/CONTRIBUTING.md at main · angular/angular",
+    "description": "The modern web developer’s platform. Contribute to angular/angular development by creating an account on GitHub.",
+    "logo": "https://repository-images.githubusercontent.com/24195339/87018c00-694b-11e9-8b5f-c34826306d36"
+  },
+  "https://momentjs.com": {
+    "title": "Moment.js | Home",
+    "logo": "https://momentjs.com/static/img/moment-favicon.png"
+  },
+  "https://day.js.org": {
+    "title": "Day.js · 2kB JavaScript date utility library",
+    "description": "2kB JavaScript date utility library",
+    "logo": "https://day.js.org/img/favicon.ico"
+  },
+  "https://github.com/date-fns/date-fns": {
+    "title": "GitHub - date-fns/date-fns: ⏳ Modern JavaScript date utility library ⌛️",
+    "description": "⏳ Modern JavaScript date utility library ⌛️. Contribute to date-fns/date-fns development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/5646bfdc1851ef6138604b1d85642ab9c1d85d1f015cf5ed1c44234939fd5a23/date-fns/date-fns"
+  },
+  "https://github.com/urin/qrono": {
+    "title": "GitHub - urin/qrono: 🕥 Just right date time library",
+    "description": "🕥 Just right date time library. Contribute to urin/qrono development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/f5a8f4126fff5f12ff6bb0551ab7ee9eed8070c424a0d7b2cac7c0ebfa0093ab/urin/qrono"
+  },
+  "https://github.com/jquense/yup": {
+    "title": "GitHub - jquense/yup: Dead simple Object schema validation",
+    "description": "Dead simple Object schema validation. Contribute to jquense/yup development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/10101799ab80b2a5bf4a70d2c3b2fb9debf23edf7f8d5e2ce66960661a34b6ae/jquense/yup"
+  },
+  "https://github.com/paularmstrong/normalizr": {
+    "title": "GitHub - paularmstrong/normalizr: Normalizes nested JSON according to a schema",
+    "description": "Normalizes nested JSON according to a schema. Contribute to paularmstrong/normalizr development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/8a1ff9df06373adc52d872f7f31c0066a1648ed3518749bcf0ad390f59b651d1/paularmstrong/normalizr"
+  },
+  "https://github.com/yiminghe/async-validator": {
+    "title": "GitHub - yiminghe/async-validator: validate form asynchronous",
+    "description": "validate form asynchronous. Contribute to yiminghe/async-validator development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/16fb81982361819f1cca1ded6f25fe24c007b0df5e0dd709e1b67b10904e471f/yiminghe/async-validator"
+  },
+  "https://github.com/hapijs/joi": {
+    "title": "GitHub - hapijs/joi: The most powerful data validation library for JS",
+    "description": "The most powerful data validation library for JS. Contribute to hapijs/joi development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/45f7ece8c800ee730f81b68d5af2e6e9e0cae09868700874e76070979d0b6c0a/hapijs/joi"
+  },
+  "https://github.com/Tencent/vConsole": {
+    "title": "GitHub - Tencent/vConsole: A lightweight, extendable front-end developer tool for mobile web page.",
+    "description": "A lightweight, extendable front-end developer tool for mobile web page. - GitHub - Tencent/vConsole: A lightweight, extendable front-end developer tool for mobile web page.",
+    "logo": "https://opengraph.githubassets.com/c552444f2bc50c2b3c08049d1c2dd17394683a2a937336f7c5060254477869e9/Tencent/vConsole"
+  },
+  "https://github.com/krisk/Fuse": {
+    "title": "GitHub - krisk/Fuse: Lightweight fuzzy-search, in JavaScript",
+    "description": "Lightweight fuzzy-search, in JavaScript. Contribute to krisk/Fuse development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/e59db8485a97074e431254b29a95a4b9e5a9a7284b9d530b4698d2965fc8c3e8/krisk/Fuse"
+  },
+  "https://github.com/ai/nanoid": {
+    "title": "GitHub - ai/nanoid: A tiny (130 bytes), secure, URL-friendly, unique string ID generator for JavaScript",
+    "description": "A tiny (130 bytes), secure, URL-friendly, unique string ID generator for JavaScript - GitHub - ai/nanoid: A tiny (130 bytes), secure, URL-friendly, unique string ID generator for JavaScript",
+    "logo": "https://opengraph.githubassets.com/d63b3414f86b713144d0cab224dd9aa72158eef19cae7a3405709f138a4af86d/ai/nanoid"
+  },
+  "https://github.com/final-form/final-form": {
+    "title": "GitHub - final-form/final-form: 🏁 Framework agnostic, high performance, subscription-based form state management",
+    "description": "🏁 Framework agnostic, high performance, subscription-based form state management - GitHub - final-form/final-form: 🏁 Framework agnostic, high performance, subscription-based form state management",
+    "logo": "https://repository-images.githubusercontent.com/111720780/39a08600-c27e-11e9-922e-d88cda5c2c4b"
+  },
+  "https://github.com/jaredpalmer/formik": {
+    "title": "GitHub - jaredpalmer/formik: Build forms in React, without the tears 😭",
+    "description": "Build forms in React, without the tears 😭 . Contribute to jaredpalmer/formik development by creating an account on GitHub.",
+    "logo": "https://repository-images.githubusercontent.com/94367677/fad6e800-35f1-11ea-89df-ed9620ed8aa7"
+  },
+  "https://github.com/alibaba/formily": {
+    "title": "GitHub - alibaba/formily: 📱🚀 🧩 Cross Device &amp; High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3",
+    "description": "📱🚀 🧩 Cross Device &amp; High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3 - GitHub - alibaba/formily: 📱🚀 🧩 Cross Device &amp; High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3",
+    "logo": "https://repository-images.githubusercontent.com/164768889/c44cf880-78d4-11ea-855e-acc3ead64b5b"
+  },
+  "https://formkit.com/": {
+    "title": "FormKit ⚡️ Vue Forms — Supercharged",
+    "description": "FormKit is a free and open-source comprehensive form development framework for Vue 3. Build industry-leading forms, 10x faster.",
+    "logo": "https://cdn.formk.it/og/og.png"
+  },
+  "https://github.com/alibaba/x-render": {
+    "title": "GitHub - alibaba/x-render: 🚴‍♀️ 阿里 - 很易用的中后台「表单 / 表格 / 图表」解决方案",
+    "description": "🚴‍♀️ 阿里 - 很易用的中后台「表单 / 表格 / 图表」解决方案. Contribute to alibaba/x-render development by creating an account on GitHub.",
+    "logo": "https://repository-images.githubusercontent.com/211033256/425d8dce-f747-453c-aaf5-9374080669ac"
+  },
+  "https://github.com/xaboy/form-create": {
+    "title": "GitHub - xaboy/form-create: 强大的动态表单生成器|form-create is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON.",
+    "description": ":fire::fire::fire: 强大的动态表单生成器|form-create is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON. - GitHub - xaboy/form-create: 强大的动态表单生成器|form-create is a form generation component that can generate dynamic rendering, data collection, verification and submission functions through JSON.",
+    "logo": "https://opengraph.githubassets.com/7e05738c30baefd4582b544ce2d6248a1f58498445c1e5162fd73c3818ea3a83/xaboy/form-create"
+  },
+  "https://github.com/rjsf-team/react-jsonschema-form": {
+    "title": "GitHub - rjsf-team/react-jsonschema-form: A React component for building Web forms from JSON Schema.",
+    "description": "A React component for building Web forms from JSON Schema. - GitHub - rjsf-team/react-jsonschema-form: A React component for building Web forms from JSON Schema.",
+    "logo": "https://opengraph.githubassets.com/df562727269f3a84a6696f4fe52cf71b3c5248d82e72b1605ffb2c10f42b1885/rjsf-team/react-jsonschema-form"
+  },
+  "https://unform-rocketseat.vercel.app": {
+    "title": "Unform | Performance-focused API for React forms",
+    "description": "Unform is a performance-focused API for creating powerful forms experiences for both React and React Native",
+    "logo": "https://unform.dev/og/banner.png"
+  },
+  "https://github.com/vueuse/vueuse": {
+    "title": "GitHub - vueuse/vueuse: Collection of essential Vue Composition Utilities for Vue 2 and 3",
+    "description": "Collection of essential Vue Composition Utilities for Vue 2 and 3 - GitHub - vueuse/vueuse: Collection of essential Vue Composition Utilities for Vue 2 and 3",
+    "logo": "https://repository-images.githubusercontent.com/227978903/0bf41500-2812-11eb-8885-f518b31fbbf3"
+  },
+  "https://github.com/Tarektouati/vue-use-web": {
+    "title": "GitHub - Tarektouati/vue-use-web: 🕸 Web APIs implemented as Vue.js composition functions",
+    "description": "🕸 Web APIs implemented as Vue.js composition functions - GitHub - Tarektouati/vue-use-web: 🕸 Web APIs implemented as Vue.js composition functions",
+    "logo": "https://opengraph.githubassets.com/08c6e4819c0b9d69fd98c584519f79f9dc8d3fca420616be9ddafe50976edc81/Tarektouati/vue-use-web"
+  },
+  "https://github.com/u3u/vue-hooks": {
+    "title": "GitHub - u3u/vue-hooks: ⚡️Awesome Vue Hooks",
+    "description": "⚡️Awesome Vue Hooks. Contribute to u3u/vue-hooks development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/541bfe0b1c84788b06ac5e9bbf7bff1ddfcc35be1aa219d8a998ef4c638a6d35/u3u/vue-hooks"
+  },
+  "https://github.com/streamich/react-use": {
+    "title": "GitHub - streamich/react-use: React Hooks — 👍",
+    "description": "React Hooks — 👍. Contribute to streamich/react-use development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/16e6b5b0e8bf03d68ffdf3e0d5fc9f5d145e0576fcd959505ff6b20630d994fc/streamich/react-use"
+  },
+  "https://github.com/kripod/react-hooks": {
+    "title": "GitHub - kripod/react-hooks: Essential set of React Hooks for convenient Web API consumption and state management.",
+    "description": "Essential set of React Hooks for convenient Web API consumption and state management. - GitHub - kripod/react-hooks: Essential set of React Hooks for convenient Web API consumption and state management.",
+    "logo": "https://opengraph.githubassets.com/015db8942286be734588d80dca1b444af1e291476e83625e665dc5585a98c815/kripod/react-hooks"
+  },
+  "https://github.com/alibaba/hooks": {
+    "title": "GitHub - alibaba/hooks: A high-quality &amp; reliable React Hooks library.",
+    "description": "A high-quality &amp; reliable React Hooks library. Contribute to alibaba/hooks development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/08e923d59a96c53f25e880dbc7c8092fe8524c7b0b31885dd2601993591deacb/alibaba/hooks"
+  },
+  "https://github.com/microsoft/vscode": {
+    "title": "GitHub - microsoft/vscode: Visual Studio Code",
+    "description": "Visual Studio Code. Contribute to microsoft/vscode development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/b45d69883fdec8ee83c63b489d14731e88b22b9ea83af6a8d126d267606eb08b/microsoft/vscode"
+  },
+  "https://github.com/kazupon/vue-i18n": {
+    "title": "GitHub - kazupon/vue-i18n: Internationalization plugin for Vue.js",
+    "description": ":globe_with_meridians: Internationalization plugin for Vue.js - GitHub - kazupon/vue-i18n: Internationalization plugin for Vue.js",
+    "logo": "https://opengraph.githubassets.com/48dbac61e88894d7861709f8861dc314566448bfb1e7b25c1ede3d80a7c29a49/kazupon/vue-i18n"
+  },
+  "https://formatjs.io/": {
+    "title": "Format.JS | Format.JS",
+    "description": "Internationalize your web apps on the client &amp; server.",
+    "logo": "https://formatjs.io/img/favicon.ico"
+  },
+  "https://www.builder.io/": {
+    "title": "Builder.io - Drag and drop experience builder - Builder.io",
+    "description": "Build and optimize digital experiences for any tech stack with full control, visually.",
+    "logo": "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F175c0805f83d4fc6b32ac092fd2b6698?width=1200"
+  },
+  "https://aisuda.bce.baidu.com/amis/zh-CN/docs/index": {
+    "title": "amis - 低代码前端框架",
+    "logo": "https://aisuda.bce.baidu.com/amis/static/favicon_b3b0647.png"
+  },
+  "https://www.tooljet.com/": {
+    "title": "Tooljet | Open-source low-code platform to build internal tools\" property=\"og:title",
+    "description": "Open-source low-code framework to build &amp; deploy internal tools, dashboards and business applications in minutes.\" name=\"description",
+    "logo": "https://user-images.githubusercontent.com/12490590/165771029-bf490c80-397d-4d3a-8409-0499ccc9b593.gif\" property=\"og:image"
+  },
+  "https://lowcode-engine.cn/docV2/intro": {
+    "title": "低代码引擎 | Low-Code Engine",
+    "logo": "https://img.alicdn.com/imgextra/i2/O1CN01TNJDDg20pKniPOkN4_!!6000000006898-2-tps-66-78.png"
+  },
+  "http://h5.dooring.cn": {
+    "title": "H5网站制作平台",
+    "description": "H5-Dooring是一款功能强大，专业可靠的H5可视化页面配置解决方案，致力于提供一套简单方便、专业可靠、无限可能的H5网站制作最佳实践。",
+    "logo": "http://h5.dooring.cn/uploads/logo_1742fd359da.png\" rel=\"shortcut icon\" type=\"image/vnd.microsoft.icon"
+  },
+  "https://github.com/imcuttle/mometa": {
+    "title": "GitHub - imcuttle/mometa: 🛠 [Beta] 面向研发的低代码元编程，代码可视编辑，辅助编码工具",
+    "description": "🛠 [Beta] 面向研发的低代码元编程，代码可视编辑，辅助编码工具. Contribute to imcuttle/mometa development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/d217ef01fe9327f074abc704b0fff618af1a74ea26179fc0d7523a046f0c9e9a/imcuttle/mometa"
+  },
+  "https://github.com/sparrow-js/sparrow": {
+    "title": "GitHub - sparrow-js/sparrow: 🎉场景化低代码（LowCode）搭建工作台，实时输出源代码",
+    "description": "🎉场景化低代码（LowCode）搭建工作台，实时输出源代码. Contribute to sparrow-js/sparrow development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/f909e56ba76862cd7787a28d4d75d6b6c11351cad519b834eeaf0c64df6349f7/sparrow-js/sparrow"
+  },
+  "https://xrender.fun/": {
+    "title": "首页 - XRender",
+    "logo": "https://img.alicdn.com/tfs/TB17UtINiLaK1RjSZFxXXamPFXa-606-643.png"
+  },
+  "https://github.com/single-spa/single-spa": {
+    "title": "GitHub - single-spa/single-spa: The router for easy microfrontends",
+    "description": "The router for easy microfrontends. Contribute to single-spa/single-spa development by creating an account on GitHub.",
+    "logo": "https://opengraph.githubassets.com/be17eaa045391abf5d629716e1b97ae95022b9209c96baf9fc3c8237dde3c084/single-spa/single-spa"
+  },
+  "https://qiankun.umijs.org/": {
+    "title": "qiankun - qiankun",
+    "logo": "https://gw.alipayobjects.com/mdn/rms_655822/afts/img/A*4sIUQpcos_gAAAAAAAAAAAAAARQnAQ"
+  },
+  "https://micro-frontends.ice.work/": {
+    "title": "icestark-面向大型系统的微前端解决方案 | icestark",
+    "description": "面向大型系统的微前端解决方案",
+    "logo": "https://micro-frontends.ice.work/img/favicon.ico"
+  },
+  "https://www.garfishjs.org/": {
+    "title": "Garfish | Garfish",
+    "description": "Description will go into a meta tag in &lt;head /&gt;",
+    "logo": "https://lf3-static.bytednsdoc.com/obj/eden-cn/dhozeh7vhpebvog/open-garfish/icons/icon.png"
+  },
+  "https://alfajs.io/": {
+    "title": "Alibaba Cloud Alfa",
+    "description": "",
+    "logo": "https://gw.alicdn.com/tfs/TB1pJiNh_M11u4jSZPxXXahcXXa-160-160.png"
+  },
+  "https://github.com/smapiot/piral": {
+    "title": "GitHub - smapiot/piral: Framework for next generation web apps using micro frontends.",
+    "description": "Framework for next generation web apps using micro frontends. :rocket: - GitHub - smapiot/piral: Framework for next generation web apps using micro frontends.",
+    "logo": "https://repository-images.githubusercontent.com/170884642/ce0c8680-51d6-11ea-92cb-94aef14d8065"
+  },
+  "https://zeroing.jd.com/": {
+    "title": "MicroApp",
+    "logo": "https://zeroing.jd.com/./favicon.ico"
+  },
+  "https://github.com/lerna/lerna": {
+    "title": "GitHub - lerna/lerna: Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository.",
+    "description": ":dragon: Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository. - GitHub - lerna/lerna: Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository.",
+    "logo": "https://opengraph.githubassets.com/96b732e8d93c0eb52adbd19202447b811c0f291ef3289ace899deb13a0f60670/lerna/lerna"
+  },
+  "https://nrwl.io/": {
+    "title": "Build Software the Better Way - Nrwl (Narwhal Technologies Inc)",
+    "description": "Development consulting from Angular core team members, Jeff Cross and Victor Savkin. Providing engineering, training and the Nx toolkit for monorepos.",
+    "logo": "https://nrwl.io/assets/nrwl-share.jpg"
+  }
+}
