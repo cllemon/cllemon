@@ -50,8 +50,9 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: `Copyright © 2019-${new Date().getFullYear()} L.C`,
-      message: "一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也！",
+      copyright: `<div style='font-size:12px;font-weight:400;'><a style="color: #9e9e9e;border-bottom: 0.5px dashed #9e9e9e;margin-right:4px;" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>Copyright © 2019-${new Date().getFullYear()} L.C</div>`,
+      message:
+        "<div style='font-size:12px;font-weight:400;'>一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也！</div>",
     },
   },
 
