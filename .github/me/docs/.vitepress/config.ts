@@ -8,27 +8,28 @@ import {
   LinkToCardPluginOptions,
 } from "@luckrya/markdown-it-link-to-card";
 
+const Links = {
+  logo: "https://avatars.githubusercontent.com/u/47939992?s=40&u=dc595041d0cda12250b9ef4f06d07320e0af32ad&v=4",
+  font: "https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.0.0/style.css",
+  cllemon: "https://github.com/cllemon",
+};
+
 export default defineConfig({
   title: " L.C ",
   description: "“一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也！”",
   lang: "zh-CN",
   base: "/cllemon",
   head: [
-    [
-      "link",
-      {
-        rel: "icon",
-        href: "https://avatars.githubusercontent.com/u/47939992?s=40&u=dc595041d0cda12250b9ef4f06d07320e0af32ad&v=4",
-      },
-    ],
+    ["link", { rel: "icon", href: Links.logo }],
+    ["link", { rel: "stylesheet", href: Links.font }],
   ],
 
   themeConfig: {
     outline: "deep",
 
-    logo: "https://avatars.githubusercontent.com/u/47939992?s=40&u=dc595041d0cda12250b9ef4f06d07320e0af32ad&v=4",
+    logo: Links.logo,
 
-    socialLinks: [{ icon: "github", link: "https://github.com/cllemon" }],
+    socialLinks: [{ icon: "github", link: Links.cllemon }],
 
     nav: [
       {
@@ -41,8 +42,16 @@ export default defineConfig({
       {
         text: "文档",
         items: [
-          { text: "👨‍💻 软件技术", link: "/technology/" },
-          { text: "🐾 生活记录", link: "/lifelog/" },
+          {
+            text: "👨‍💻 软件技术",
+            link: "/technology/",
+            // activeMatch: "^technology",
+          },
+          {
+            text: "🐾 生活记录",
+            link: "/lifelog/",
+            // activeMatch: "^lifelog",
+          },
         ],
       },
       { text: "摄影", link: "/photography" },
@@ -50,9 +59,8 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: `<div style='font-size:12px;font-weight:400;'><a style="color: #9e9e9e;border-bottom: 0.5px dashed #9e9e9e;margin-right:4px;" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>Copyright © 2019-${new Date().getFullYear()} L.C</div>`,
-      message:
-        "<div style='font-size:12px;font-weight:400;'>一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也！</div>",
+      copyright: `<div style='font-size:12px;font-weight:400;'><a target="_blank" style="color: #9e9e9e;border-bottom: 0.5px dashed #9e9e9e;margin-right:4px;" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>Copyright © 2019-${new Date().getFullYear()} L.C</div>`,
+      message: "一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也！",
     },
   },
 

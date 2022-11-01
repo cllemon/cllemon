@@ -79,11 +79,11 @@ const descendingOrder = (archives: Record<string, unknown>) => {
 
 .article-title {
   margin-right: 4px;
-  font-size: 13px;
+  font-size: 15px;
   color: inherit;
   cursor: pointer;
   font-weight: 600;
-  font-family: serif;
+  /* font-family: serif; */
   width: fit-content;
 }
 
