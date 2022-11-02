@@ -22,6 +22,7 @@ export default defineConfig({
   head: [
     ["link", { rel: "icon", href: Links.logo }],
     ["link", { rel: "stylesheet", href: Links.font }],
+    ["meta", { name: "referrer", content: "no-referrer" }],
   ],
 
   themeConfig: {
@@ -101,17 +102,18 @@ export default defineConfig({
                 return {
                   ...matter(fs.readFileSync(resolve(dirPath, d.name), "utf-8"))
                     .data,
-                  href: path
-                    .relative(resolve(dirPath), resolve(dirPath, d.name))
-                    .replace(".md", ""),
+                  href: resolve(dirPath, d.name).replace(".md", ""),
                 };
             })
             .flat(10)
             .filter(isPureObject);
         };
-        const data = extractData(resolve(d.name)).sort(
-          (a, b) => timestamp(b.date) - timestamp(a.date)
-        );
+        const data = extractData(resolve(d.name))
+          .sort((a, b) => timestamp(b.date) - timestamp(a.date))
+          .map((item) => ({
+            ...item,
+            href: path.relative(resolve(d.name), item.href),
+          }));
         articles[d.name] = data;
       });
 

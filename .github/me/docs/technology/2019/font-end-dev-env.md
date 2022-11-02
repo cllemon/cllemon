@@ -1,15 +1,12 @@
 ---
-title: 前端开发环境配置清单（MINE + Mac）
-description: 前端开发中需要用到的一些工具、环境配置等（ FE + Mac )
-date: 2019-11-16
+title: 开发环境配置清单（针对前端er & 强烈的自我风格）
+date: 2019-12-08
 lang: "简体中文"
-source: "原创"
 tags:
-  - "Dev-Env #d53a4a#ffff"
-  - "Font-end #2196f3#ffff"
+  - "开发环境 #d53a4a#ffff"
+  - "IDE #3da4e9#ffff"
+  - "Font-end #027d85#FFF"
 ---
-
-# 前端开发环境配置清单（MINE + Mac）
 
 ## Git
 
@@ -33,7 +30,7 @@ id_rsa.pub  # 公钥
 known_hosts # 存储已认证的远程主机 host key
 ```
 
-> [使用 SSH 连接到 GitHub](https://docs.github.com/cn/github/authenticating-to-github/connecting-to-github-with-ssh)
+[使用 SSH 连接到 GitHub](https://docs.github.com/cn/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 ## VS Code
 
@@ -233,6 +230,6 @@ Node.js 是一个基于 [Chrome V8](https://v8.dev/) 引擎的 JavaScript 运行
 - [微信](https://weixin.qq.com/)
 - [网易云音乐](https://music.163.com/#/download)
 - [QQ 音乐](https://y.qq.com/download/mac.html?part=1&ADTAG=YQQ)
-- [网易有道词 ‪ 典](https://apps.apple.com/cn/app/you-dao-ci-dian/id491854842?mt=12)
+- [网易有道词典](https://apps.apple.com/cn/app/you-dao-ci-dian/id491854842?mt=12)
 - [Google 翻译](https://github.com/MoeFE/GoogleTranslate/releases/tag/v2.0.0-beta.2)
 - [搜狗输入法](https://pinyin.sogou.com/mac/?r=pinyin)

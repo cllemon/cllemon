@@ -37,13 +37,13 @@ const descendingOrder = (archives: Record<string, unknown>) => {
           :key="article.title"
           class="article"
         >
+          <sup class="source" v-if="article.source">{{ article.source }}</sup>
           <a class="article-title" :href="`./${article.href}`">
-            <sup class="source" v-if="article.source">{{ article.source }}</sup>
             {{ article.title }}
           </a>
           <div class="article-info">
             <span class="date">{{ date(article.date) }}</span>
-            <Tags :list="article.tags || []" />
+            <Tags :list="article.tags || []" style="margin-top: 2px" />
           </div>
         </li>
       </ul>
@@ -74,34 +74,36 @@ const descendingOrder = (archives: Record<string, unknown>) => {
   flex-direction: column;
   flex-wrap: wrap;
   margin-bottom: 24px;
-  /* cursor: pointer; */
+  position: relative;
 }
 
 .article-title {
   margin-right: 4px;
-  font-size: 15px;
+  /* font-size: 15px; */
   color: inherit;
   cursor: pointer;
-  font-weight: 600;
-  /* font-family: serif; */
+  font-weight: 500;
   width: fit-content;
+  padding-left: 30px;
 }
 
 .article-info {
-  padding-left: 38px;
-  opacity: 0.8;
+  padding-left: 30px;
+  opacity: 0.9;
+
+  display: flex;
+  align-items: center;
 }
 .article:hover .article-info {
   opacity: 1;
   user-select: none;
 }
-
 .date {
   opacity: 0.8;
   font-size: 12px;
   font-family: monospace;
   font-weight: 100;
-  margin-right: 4px;
+  margin-right: 10px;
 }
 
 .source {
@@ -113,6 +115,8 @@ const descendingOrder = (archives: Record<string, unknown>) => {
   transform: scale(0.6);
   display: inline-block;
   line-height: 1;
-  margin-top: -4px;
+  position: absolute;
+  top: 3px;
+  left: -2px;
 }
 </style>

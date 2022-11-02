@@ -1,0 +1,151 @@
+---
+title: Git 常用工作流、命令集锦、一些自定配置
+date: 2019-12-07
+lang: "简体中文"
+tags:
+  - "Git #f24d28#fff"
+---
+
+## 分区信息
+
+```sh
+  （ 写代码 ）           （ 文件池 ）        （ git log 查看 ）    （ github 等平台 ）
+Working Directory        Stage             Commit History          Remote
+    工作区   ==========>  暂存区   ==========>   版本库   ==========> 远程仓库
+
+            git add              git commit             git push
+```
+
+## 工作流
+
+### 单人开发
+
+```sh
+# 初始化
+$ git init                                       # 初始化
+$ git remote add origin git@xxx.com:xxx/xxx.git  # 关联远程仓库
+$ git push --set-upstream origin master          # 与远程分支建立连接
+
+# 开发
+$ git pull                   # 开发前拉取远程代码
+$ git add .                  # 添加所有修改至暂存区
+$ git status                 # 查看修改情况
+$ git reset HEAD -- xxx.md   # 将 xxx.md 移除暂存区
+$ git commit -m 'xxx'        # 提交修改的代码
+$ git log --graph            # 查看提交日志
+$ git push                   # 推送代码到远程仓库
+```
+
+### 多人协同开发
+
+```sh
+# 准备功能分支
+$ git checkout master # 切换到主分支（本地已 clone 仓库）
+$ git pull # 拉取远程保持最新
+$ git checkout -b feature/xxx # 切出功能分支
+$ git push --set-upstream origin feature/xxx # 与远程分支建立连接
+
+# 开发
+## 第一天
+$ git commit -m 'feat: part A'
+$ git commit -m 'feat: part B'
+
+## 第二天
+### 保证本地最新
+$ git checkout master
+$ git pull
+$ git checkout feature/xxx
+$ git rebase master # 若存在冲突按实际情况解决 【①】
+$ git push -f
+
+### 继续开发
+$ git commit -m 'feat: part C'
+$ git commit -m 'feat: Done!'
+$ git push
+
+## 开发完成，在代码托管平台提交 PR/MR
+```
+
+```sh
+①
+              A --- B feature/xxx
+             /
+o --- o --- o --- o --- o --- o master       👇
+                       /
+          feature/other
+                                A --- B feature/xxx
+                               /
+o --- o --- o --- o --- o --- o master
+                       /
+          feature/other
+```
+
+## 常用命令（速查）
+
+### Branch
+
+```sh
+git branch -a # 查看本地和远程的分支
+git checkout -b dev # 创建本地分支
+git push --set-upstream origin dev # 将本地分支同步到远程
+git checkout main # 切换分支
+git branch -d/-D dev # 删除本地分支
+git push origin -d dev # 删除远程分支
+```
+
+### Tag
+
+```sh
+git tag # 查看 tag
+git tag v1.0.0 -m "release: v1.0.0" # 创建 tag
+git push origin v1.0.0 # 推送 tag 至远程
+git tag -d v1.0.0 # 删除 tag（本地）
+git push origin :refs/tags/v1.0.0 # 删除 tag（远程）
+```
+
+## 自定义配置（.gitconfig）
+
+**创建全局配置**
+
+```sh
+$ vi ~/.gitconfig
+```
+
+**简化命令字符，加快输入（供参考）**
+
+```sh
+[alias]
+  a = add .
+  br = branch
+  s = status
+  l = log --oneline --all --graph
+  ct = commit -m
+  ck = checkout
+  c  = clone
+```
+
+**当你需要根据工作区，应用不同配置，可以这么做：**
+
+```sh
+[includeIf "gitdir:~/workspace/A/"]
+  path = ~/.gitconfig-A
+
+[includeIf "gitdir:~/Workspace/B/"]
+  path = ~/.gitconfig-B
+```
+
+`~/.gitconfig-A`
+
+```sh
+[user]
+	name = A
+	email = A@gmail.com
+```
+
+`~/.gitconfig-B`
+
+```sh
+[user]
+	name = B
+	email = B@gmail.com
+```

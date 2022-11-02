@@ -16,7 +16,7 @@ const tags = computed(() =>
 
 <template>
   <!-- <div class="tags"> -->
-  <span
+  <div
     v-for="(tag, index) of tags"
     :key="index"
     :style="{
@@ -31,7 +31,7 @@ const tags = computed(() =>
     class="tag"
   >
     <span class="tag-text">{{ tag.content }}</span>
-  </span>
+  </div>
   <!-- </div> -->
 </template>
 
@@ -44,15 +44,17 @@ const tags = computed(() =>
 .tag {
   display: inline-block;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 12px;
   border: 0.5px solid transparent;
-  border-radius: 2em;
+  border-radius: 6px;
   margin-right: 6px;
+  padding: 0 2px;
 }
 
 .tag-text {
-  transform: scale(0.7);
+  transform: scale(0.8);
   display: inline-block;
   font-weight: bold;
+  margin: 0 2px;
 }
 </style>
