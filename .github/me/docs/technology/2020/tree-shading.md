@@ -1,5 +1,5 @@
 ---
-title: Tree Shaking
+title: 如何控制 JavaScript 库输出？如何配合 Tree Shaking ?
 date: 2020-04-27
 lang: "简体中文"
 tags:

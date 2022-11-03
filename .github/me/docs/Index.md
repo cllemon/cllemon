@@ -3,7 +3,7 @@ title: 👤‍ 关于
 ---
 
 <div style="display: flex;align-items: center;">
-<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" style="margin-right:8px;width:25px;">
+<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" style="margin-right:8px;width:25px;box-shadow:none;">
 <h2 style="border:none;margin: 0;padding: 0;margin-top: 4px;"> Hi there </h2>
 </div>
 

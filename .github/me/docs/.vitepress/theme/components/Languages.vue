@@ -59,5 +59,6 @@ const languages = [
 }
 .languages .language .logo {
   height: 20px;
+  box-shadow: none !important;
 }
 </style>
