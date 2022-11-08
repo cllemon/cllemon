@@ -43,7 +43,7 @@ const descendingOrder = (archives: Record<string, unknown>) => {
           </a>
           <div class="article-info">
             <span class="date">{{ date(article.date) }}</span>
-            <Tags :list="article.tags || []" style="margin-top: 2px" />
+            <Tags :list="article.tags || []" />
           </div>
         </li>
       </ul>
