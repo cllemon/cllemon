@@ -5,9 +5,9 @@
     "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji" !important;
 
-  --vp-font-family-mono: "LXGW WenKai LITE", ui-monospace, SFMono-Regular,
+  /* --vp-font-family-mono: "LXGW WenKai LITE", ui-monospace, SFMono-Regular,
     "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
-    monospace !important;
+    monospace !important; */
 }
 
 body {
