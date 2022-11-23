@@ -56,5 +56,6 @@ const tags = computed(() =>
   display: inline-block;
   font-weight: bold;
   margin: 0 2px;
+  font-family: sans-serif;
 }
 </style>

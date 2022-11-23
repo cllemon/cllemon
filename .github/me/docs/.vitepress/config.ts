@@ -46,12 +46,10 @@ export default defineConfig({
           {
             text: "👨‍💻 软件技术",
             link: "/technology/",
-            // activeMatch: "^technology",
           },
           {
             text: "🐾 生活记录",
             link: "/lifelog/",
-            // activeMatch: "^lifelog",
           },
         ],
       },
@@ -60,8 +58,8 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: `<div style='font-size:12px;font-weight:400;'><a target="_blank" style="color: #9e9e9e;border-bottom: 0.5px dashed #9e9e9e;margin-right:4px;" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>Copyright © 2019-${new Date().getFullYear()} L.C</div>`,
-      message: "一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也！",
+      message: `<div style='font-size:12px;font-weight:400;'><a target="_blank" style="color: #9e9e9e;border-bottom: 0.5px dashed #9e9e9e;margin-right:4px;" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>Copyright © 2019-${new Date().getFullYear()} L.C</div>`,
+      copyright: "一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也！",
     },
   },
 

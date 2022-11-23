@@ -1,13 +1,14 @@
 ---
 title: 链表
 description: 链表
-date: 2020-01-01
+date: 2019-10-02
 lang: "简体中文"
-source: "原创"
 tags:
   - "数据结构与算法#000#ffff"
   - "链表"
 ---
+
+# 链表
 
 ## 概念说明
 

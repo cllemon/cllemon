@@ -84,11 +84,11 @@ const descendingOrder = (archives: Record<string, unknown>) => {
   cursor: pointer;
   font-weight: 500;
   width: fit-content;
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
 .article-info {
-  padding-left: 30px;
+  /* padding-left: 30px; */
   opacity: 0.9;
 
   display: flex;
@@ -117,6 +117,6 @@ const descendingOrder = (archives: Record<string, unknown>) => {
   line-height: 1;
   position: absolute;
   top: 3px;
-  left: -2px;
+  left: -34px;
 }
 </style>
