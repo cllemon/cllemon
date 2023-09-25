@@ -4,9 +4,10 @@ import matter from "gray-matter";
 import { isPureObject } from "@luckrya/utility";
 import { defineConfig } from "vitepress";
 import {
-  linkToCardPlugin,
+  linkToCardPlugin as LocalLinkToCardPlugin,
   LinkToCardPluginOptions,
 } from "@luckrya/markdown-it-link-to-card";
+// import { linkToCardPlugin as LocalLinkToCardPlugin } from "../../../../../../luckrya/markdown-it-link-to-card/dist/markdown.esm.min.js";
 
 const Links = {
   logo: "https://avatars.githubusercontent.com/u/47939992?s=40&u=dc595041d0cda12250b9ef4f06d07320e0af32ad&v=4",
@@ -16,12 +17,12 @@ const Links = {
 
 export default defineConfig({
   title: " L.C ",
-  description: "“一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也！”",
+  // description: "“一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也！”",
   lang: "zh-CN",
   base: "/cllemon",
   head: [
     ["link", { rel: "icon", href: Links.logo }],
-    ["link", { rel: "stylesheet", href: Links.font }],
+    // ["link", { rel: "stylesheet", href: Links.font }],
     ["meta", { name: "referrer", content: "no-referrer" }],
   ],
 
@@ -65,8 +66,9 @@ export default defineConfig({
 
   markdown: {
     config: (md) => {
-      md.use<LinkToCardPluginOptions>(linkToCardPlugin, {
+      md.use<LinkToCardPluginOptions>(LocalLinkToCardPlugin, {
         size: "small",
+        // tag: "\\$",
       });
     },
   },

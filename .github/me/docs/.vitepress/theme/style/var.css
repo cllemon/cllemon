@@ -9,24 +9,3 @@
     "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
     monospace !important; */
 }
-
-body {
-  font-size: 18px !important;
-}
-
-.logo {
-  border-radius: 50% !important;
-}
-
-.content-container .main .vp-doc div h2:first-child {
-  border-top: none !important;
-}
-
-img {
-  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 30%);
-  border-radius: 10px;
-}
-._cllemon_bookmark img,
-._cllemon_repositories img {
-  box-shadow: none;
-}
