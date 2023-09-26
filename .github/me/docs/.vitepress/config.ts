@@ -15,7 +15,7 @@ const Links = {
   cllemon: "https://github.com/cllemon",
 };
 
-export default defineConfig({
+export default {
   title: " L.C ",
   // description: "“一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也！”",
   lang: "zh-CN",
@@ -34,33 +34,22 @@ export default defineConfig({
     socialLinks: [{ icon: "github", link: Links.cllemon }],
 
     nav: [
-      {
-        text: "收藏",
-        items: [
-          { text: "🔖 书签", link: "/bookmark" },
-          { text: "🎗 项目", link: "/repositories" },
-        ],
-      },
-      {
-        text: "文档",
-        items: [
-          {
-            text: "👨‍💻 软件技术",
-            link: "/technology/",
-          },
-          {
-            text: "🐾 生活记录",
-            link: "/lifelog/",
-          },
-        ],
-      },
-      { text: "摄影", link: "/photography" },
-      { text: "关于", link: "/index" },
+      { text: "筆墨", link: "/index" },
+      { text: "歸檔", link: "/archive" },
+      { text: "收藏", link: "/collection" },
+      { text: "關於", link: "/about" },
     ],
+
+    header: {
+      avatar: "https://avatars.githubusercontent.com/u/47939992",
+      title: "LONG CHENG",
+      motto: "一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也",
+      position: "安徽 · 淮南",
+    },
 
     footer: {
       message: `<div style='font-size:12px;font-weight:400;'><a target="_blank" style="color: #9e9e9e;border-bottom: 0.5px dashed #9e9e9e;margin-right:4px;" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>Copyright © 2019-${new Date().getFullYear()} L.C</div>`,
-      copyright: "一箪食，一瓢饮，在陋巷，人不堪其忧，回也不改其乐。贤哉回也！",
+      copyright: "",
     },
   },
 
@@ -122,4 +111,4 @@ export default defineConfig({
       articles,
     };
   },
-});
+} as ReturnType<typeof defineConfig> & Record<string, any>;

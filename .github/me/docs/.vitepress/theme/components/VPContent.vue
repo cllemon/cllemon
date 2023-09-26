@@ -26,7 +26,7 @@ provide("onContentUpdated", onContentUpdated);
       'is-home': frontmatter.layout === 'home',
     }"
   >
-    <NotFound v-if="route.component === NotFound" />
+    <!-- <NotFound v-if="route.component === NotFound" /> -->
 
     <div class="content">
       <div class="content-container">
