@@ -15,11 +15,14 @@ import VPFooter from "./VPFooter.vue";
   flex: 1;
   background-color: var(--bg-color);
   padding: 32px 32px 0;
+
+  overflow-y: scroll;
+  box-sizing: content-box;
+  overflow-x: hidden;
 }
 
 @media (max-width: 900px) {
   .CVPMain {
-    //
   }
 }
 </style>

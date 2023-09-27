@@ -14,6 +14,7 @@ import VPMain from "./VPMain.vue";
 .CLayout {
   display: flex;
   height: 100vh;
+  overflow: hidden;
 }
 
 @media (max-width: 900px) {
@@ -21,7 +22,7 @@ import VPMain from "./VPMain.vue";
     display: flex;
     flex-direction: column;
     height: 100vh;
-    min-width: 414px;
+    min-width: 375px;
     overflow: hidden;
   }
 }
