@@ -1,11 +1,13 @@
 ---
-# aside: false
-title: 🔖 书签
+title: 收藏
 ---
+
+收藏
+
+<!--
 
 ### 实用工具
 
-<!-- <link rel="shortcut icon" href="/images/favicon.ico"> -->
 
 - [APK Lab](@:https://apklab.surendrajat.xyz/)
 
@@ -26,3 +28,5 @@ title: 🔖 书签
 [现代 Web 开发困境与破局](@:https://zhuanlan.zhihu.com/p/389935233)
 
 [对开发人员有用的定律、理论、原则和模式。(Laws, Theories, Principles and Patterns that developers will find useful.)](@:https://github.com/nusr/hacker-laws-zh)
+
+-->

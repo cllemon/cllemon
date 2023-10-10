@@ -1,7 +1,11 @@
-.VPNav,
+body {
+  margin: 0;
+}
+
+/* .VPNav,
 .no-sidebar {
   display: none;
-}
+} */
 
 /* body {
   font-size: 18px !important;

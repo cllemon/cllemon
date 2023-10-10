@@ -1,8 +1,5 @@
 ---
-title: 👤‍ home
-layout: page
+title: 筆墨
 ---
 
-1212
-
-12312
+<CPenAndInk />

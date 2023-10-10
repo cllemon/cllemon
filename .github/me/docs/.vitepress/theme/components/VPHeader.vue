@@ -38,14 +38,16 @@ const { toggle } = useAppearance();
         <div class="social">
           <a
             v-for="(svg, name) in socialIcon"
-            :href="extractSocialLink(name, theme.socialLinks)"
+            :href="extractSocialLink(name, theme.header.socialLinks)"
             target="_blank"
             rel="noopener"
             class="social-item"
             v-html="svg"
             :style="{
-              opacity: extractSocialLink(name, theme.socialLinks) ? 1 : 0.1,
-              cursor: extractSocialLink(name, theme.socialLinks)
+              opacity: extractSocialLink(name, theme.header.socialLinks)
+                ? 1
+                : 0.1,
+              cursor: extractSocialLink(name, theme.header.socialLinks)
                 ? 'pointer'
                 : 'not-allowed',
             }"
@@ -57,7 +59,7 @@ const { toggle } = useAppearance();
     <nav class="nav">
       <a
         class="nav-item"
-        v-for="n of theme.nav"
+        v-for="n of theme.header.nav"
         :key="n.link"
         :href="normalizeLink(n.link)"
       >
@@ -113,9 +115,9 @@ const { toggle } = useAppearance();
       text-align: right;
 
       .title {
-        font-size: 28px;
+        font-size: 26px;
         font-weight: bold;
-        font-family: fantasy, "LXGW WenKai LITE";
+        font-family: "LXGW WenKai LITE";
       }
 
       .position {
@@ -153,6 +155,8 @@ const { toggle } = useAppearance();
     font-size: 18px;
 
     &-item {
+      text-decoration: none;
+      color: #ffffff;
       display: block;
       user-select: none;
       cursor: pointer;

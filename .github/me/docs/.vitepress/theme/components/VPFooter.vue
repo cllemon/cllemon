@@ -21,7 +21,7 @@ const { theme } = useData();
   </footer>
 </template>
 
-<style scoped>
+<style scoped lang="less">
 .VPFooter {
   position: relative;
   z-index: var(--vp-z-index-footer);
