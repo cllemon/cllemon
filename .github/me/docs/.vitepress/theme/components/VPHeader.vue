@@ -117,7 +117,6 @@ const { toggle } = useAppearance();
       .title {
         font-size: 26px;
         font-weight: bold;
-        font-family: "LXGW WenKai LITE";
       }
 
       .position {

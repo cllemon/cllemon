@@ -1,10 +1,8 @@
 <script setup lang="ts">
 import { computed, inject, provide, ref } from "vue";
-import { useRoute, useData } from "vitepress";
+import { useRoute } from "vitepress";
 
 const route = useRoute();
-const { frontmatter } = useData();
-
 const pageName = computed(() =>
   route.path.replace(/[./]+/g, "_").replace(/_html$/, "")
 );
@@ -32,8 +30,14 @@ const NotFound = inject("NotFound");
   </div>
 </template>
 
-<style scoped lang="less">
+<style lang="less">
 .CVPContent {
   min-height: 84%;
+
+  // .vp-doc {
+  //   div h2:first-child {
+  //     border-top: none !important;
+  //   }
+  // }
 }
 </style>

@@ -1,29 +1,9 @@
 body {
+  font-family: var(--vp-font-family-base);
   margin: 0;
 }
 
-/* .VPNav,
-.no-sidebar {
-  display: none;
-} */
-
-/* body {
-  font-size: 18px !important;
-}
-
-.logo {
-  border-radius: 50% !important;
-}
-
-.content-container .main .vp-doc div h2:first-child {
-  border-top: none !important;
-}
-
-img {
+p img {
   box-shadow: 0 3px 6px 0 rgb(0 0 0 / 30%);
-  border-radius: 10px;
+  border-radius: 8px;
 }
-._cllemon_bookmark img,
-._cllemon_repositories img {
-  box-shadow: none;
-} */

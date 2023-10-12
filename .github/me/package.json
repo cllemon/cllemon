@@ -5,6 +5,10 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs"
   },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "lxgw-wenkai-webfont": "^1.7.0"
+  },
   "devDependencies": {
     "@luckrya/markdown-it-link-to-card": "^0.3.3",
     "@luckrya/utility": "^0.1.1",
@@ -23,8 +27,5 @@
       ]
     }
   },
-  "packageManager": "pnpm@7.1.0",
-  "dependencies": {
-    "lxgw-wenkai-webfont": "^1.7.0"
-  }
+  "packageManager": "pnpm@7.1.0"
 }

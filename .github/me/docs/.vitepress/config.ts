@@ -3,16 +3,26 @@ import path from "node:path";
 import matter from "gray-matter";
 import { isPureObject } from "@luckrya/utility";
 import { defineConfig } from "vitepress";
-import {
-  linkToCardPlugin as LocalLinkToCardPlugin,
-  LinkToCardPluginOptions,
-} from "@luckrya/markdown-it-link-to-card";
+import dayjs from "dayjs";
+// import {
+//   linkToCardPlugin as LocalLinkToCardPlugin,
+//   LinkToCardPluginOptions,
+// } from "@luckrya/markdown-it-link-to-card";
 
 export default {
   title: " CHENG LONG ",
   lang: "zh-CN",
   base: "/cllemon",
-  head: [["meta", { name: "referrer", content: "no-referrer" }]],
+  head: [
+    ["meta", { name: "referrer", content: "no-referrer" }],
+    [
+      "script",
+      {
+        async: "",
+        src: "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js",
+      },
+    ],
+  ],
   themeConfig: {
     outline: "deep",
     header: {
@@ -36,10 +46,10 @@ export default {
 
   markdown: {
     config: (md) => {
-      md.use<LinkToCardPluginOptions>(LocalLinkToCardPlugin, {
-        size: "small",
-        // tag: "\\$",
-      });
+      // md.use<LinkToCardPluginOptions>(LocalLinkToCardPlugin, {
+      //   size: "small",
+      //   // tag: "\\$",
+      // });
     },
   },
 
@@ -50,7 +60,7 @@ export default {
   },
 
   transformPageData: (pageData) => {
-    const articles = [] as any[];
+    // const articles = [] as any[];
     const isMD = (p: string) => path.extname(p) === ".md"; // only .md
     const isDirEntry = (p: string) => path.basename(p, ".md") === "index";
     const ignoreDotVitepressDir = (p: string) => !p.includes(".vitepress");
@@ -59,10 +69,10 @@ export default {
     const readdir = (_path: string) =>
       fs.readdirSync(_path, { encoding: "utf-8", withFileTypes: true });
 
-    readdir(resolve())
+    const timestamp = (t: string) => new Date(t).getTime();
+    const articles = readdir(resolve())
       .filter((d) => d.isDirectory() && ignoreDotVitepressDir(d.name))
-      .forEach((d) => {
-        const timestamp = (t: string) => new Date(t).getTime();
+      .map((d) => {
         const extractData = (dirPath: string) => {
           return readdir(dirPath)
             .map((d) => {
@@ -79,9 +89,7 @@ export default {
                     resolve(),
                     resolve(dirPath, d.name).replace(".md", "")
                   ),
-                  date: `${time.getFullYear()}年${
-                    time.getMonth() + 1
-                  }月${time.getDate()}日`,
+                  date: dayjs(data.date).format("YYYY年MM月DD日"),
                   time,
                 };
               }
@@ -89,16 +97,32 @@ export default {
             .flat(10)
             .filter(isPureObject);
         };
-        const data = extractData(resolve(d.name)).sort(
-          (a, b) => timestamp(b.time) - timestamp(a.time)
-        );
 
-        articles.push(...data);
-      });
+        return extractData(resolve(d.name));
+      })
+      .flat(10)
+      .sort((a, b) => timestamp(b.time) - timestamp(a.time));
+
+    const archives = articles.reduce((pre, cur) => {
+      const y = dayjs(cur.time).format("YYYY");
+      const info = {
+        ...cur,
+        time: dayjs(cur.time).format("MM-DD"),
+      };
+
+      if (pre[y]) {
+        pre[y].push(info);
+      } else {
+        pre[y] = [info];
+      }
+
+      return pre;
+    }, {});
 
     return {
       ...pageData,
       articles,
+      archives,
     };
   },
 } as ReturnType<typeof defineConfig> & Record<string, any>;
