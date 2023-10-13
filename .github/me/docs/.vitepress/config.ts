@@ -12,7 +12,7 @@ import dayjs from "dayjs";
 export default {
   title: " CHENG LONG ",
   lang: "zh-CN",
-  base: "/",
+  base: "/cllemon",
   head: [
     ["meta", { name: "referrer", content: "no-referrer" }],
     [
