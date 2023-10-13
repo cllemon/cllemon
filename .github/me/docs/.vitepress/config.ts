@@ -32,7 +32,7 @@ export default {
       position: "安徽 · 淮南",
       socialLinks: [{ icon: "github", link: "https://github.com/cllemon" }],
       nav: [
-        { text: "筆墨", link: "/index" },
+        { text: "筆墨", link: "/writing" },
         { text: "歸檔", link: "/archive" },
         { text: "收藏", link: "/collection" },
         { text: "關於", link: "/about" },

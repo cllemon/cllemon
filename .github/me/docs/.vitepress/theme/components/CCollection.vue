@@ -126,7 +126,7 @@ const { page } = useData();
 
 .dark {
   .CCollection .category .list .item {
-    box-shadow: 0 3px 9px 0 rgb(0 0 0 / 70%);
+    box-shadow: 1px 1px 6px 0px #86909cbf;
   }
 }
 </style>
