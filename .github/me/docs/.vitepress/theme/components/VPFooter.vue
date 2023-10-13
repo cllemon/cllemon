@@ -19,12 +19,12 @@ const { theme } = useData();
       ></p>
 
       <!-- 访问统计 -->
-      <p class="message">
+      <p class="access">
         <span id="busuanzi_container_site_pv">
-          本站总访问量<span id="busuanzi_value_site_pv"></span>次
+          本站访问数 <span id="busuanzi_value_site_pv"></span>
         </span>
         <span id="busuanzi_container_site_uv">
-          本站访客数<span id="busuanzi_value_site_uv"></span>人次
+          本站访客数 <span id="busuanzi_value_site_uv"></span>
         </span>
       </p>
     </div>
@@ -35,9 +35,9 @@ const { theme } = useData();
 .VPFooter {
   position: relative;
   z-index: var(--vp-z-index-footer);
-  border-top: 1px solid var(--vp-c-divider-light);
+  border-top: 1px solid var(--vp-c-divider);
   padding: 32px 24px;
-  /* background-color: var(--vp-c-bg); */
+  margin-top: 32px;
 }
 
 @media (min-width: 768px) {
@@ -65,5 +65,15 @@ const { theme } = useData();
 }
 .copyright {
   order: 1;
+}
+
+.access {
+  font-size: 11px;
+  font-weight: 300;
+
+  .busuanzi_container_site_pv,
+  .busuanzi_container_site_uv {
+    margin: 0px 4px;
+  }
 }
 </style>

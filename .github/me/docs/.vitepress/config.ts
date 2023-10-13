@@ -12,7 +12,7 @@ import dayjs from "dayjs";
 export default {
   title: " CHENG LONG ",
   lang: "zh-CN",
-  base: "/cllemon",
+  base: "/cllemon/",
   head: [
     ["meta", { name: "referrer", content: "no-referrer" }],
     [
@@ -40,7 +40,7 @@ export default {
     },
     footer: {
       message: "",
-      copyright: `<div style='font-size:12px;font-weight:300;'><a target="_blank" style="color: #9e9e9e;border-bottom: 0.5px dashed #9e9e9e;margin-right:4px;" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>Copyright © 2019-${new Date().getFullYear()} L.C</div>`,
+      copyright: `<div style='font-size:12px;font-weight:300;'><a target="_blank" style="color: #9e9e9e;border-bottom: 0.5px dashed #9e9e9e;margin-right:4px;" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>Copyright © 2019-${new Date().getFullYear()}</div>`,
     },
   },
 

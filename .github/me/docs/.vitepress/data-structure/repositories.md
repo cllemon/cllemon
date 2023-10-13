@@ -2,20 +2,6 @@
 title: 🎗 项目
 ---
 
-## Front-end SAP Framework
-
-[angular](@:https://angular.io/)
-
-[react](@:https://reactjs.org/)
-
-[vue2](@:https://v2.vuejs.org/)
-
-[vue3](@:https://vuejs.org/)
-
-[svelte](@:https://svelte.dev/)
-
-[qwik](@:https://qwik.builder.io/)
-
 ## Front-end Build Toolchain
 
 ### Bundler
@@ -300,27 +286,3 @@ title: 🎗 项目
 [changesets](@:https://github.com/changesets/changesets)
 
 [Rush](@:https://rushjs.io/)
-
-## Nodejs Application Framework
-
-[expressjs](@:https://expressjs.com/)
-
-[koa](@:https://koa.bootcss.com/)
-
-[nestjs](@:https://nestjs.com/)
-
-[hapi](@:https://hapi.dev/)
-
-[Koatty](@:https://github.com/Koatty/koatty)
-
-[darukjs](@:https://darukjs.com/)
-
-## Node.js Package Manager
-
-[npmjs](@:https://docs.npmjs.com/)
-
-[pnpm](@:https://pnpm.io/zh/)
-
-[verdaccio](@:https://verdaccio.org)
-
-[yarn](@:https://yarnpkg.com)

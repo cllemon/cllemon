@@ -34,9 +34,10 @@ const { page } = useData();
 
   .title {
     width: 70%;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 900;
     color: var(--vp-c-text-1);
+    text-decoration: none;
 
     .ellipsis(1);
     &:hover {
@@ -48,7 +49,7 @@ const { page } = useData();
   .desc {
     opacity: 0.9;
     line-height: 1.2;
-    font-size: 16px;
+    font-size: 15px;
     .ellipsis(3);
   }
 

@@ -15,7 +15,7 @@
     "@types/node": "^18.11.7",
     "gray-matter": "^4.0.3",
     "less": "^4.2.0",
-    "vitepress": "^1.0.0-alpha.19"
+    "vitepress": "1.0.0-rc.21"
   },
   "pnpm": {
     "peerDependencyRules": {

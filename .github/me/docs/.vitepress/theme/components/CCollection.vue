@@ -39,9 +39,11 @@ const { page } = useData();
 .CCollection {
   position: relative;
   margin-left: 32px;
+  margin-bottom: 64px;
 
   .category {
     .name {
+      width: 110%;
       font-size: 18px;
       font-weight: 200;
       padding: 24px 0px 32px 0px;
@@ -72,6 +74,7 @@ const { page } = useData();
         box-shadow: 0 3px 9px 0 rgb(0 0 0 / 10%);
         color: var(--vp-c-text-1);
         transition: all 0.1s;
+        text-decoration: none;
 
         .title {
           .ellipsis(3);
