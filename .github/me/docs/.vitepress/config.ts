@@ -60,7 +60,6 @@ export default {
   },
 
   transformPageData: (pageData) => {
-    // const articles = [] as any[];
     const isMD = (p: string) => path.extname(p) === ".md"; // only .md
     const isDirEntry = (p: string) => path.basename(p, ".md") === "index";
     const ignoreDotVitepressDir = (p: string) => !p.includes(".vitepress");

@@ -43,16 +43,16 @@ const { page } = useData();
 
   .category {
     .name {
-      width: 110%;
+      width: 120%;
       font-size: 18px;
       font-weight: 200;
-      padding: 24px 0px 32px 0px;
-      margin-left: -10px;
+      padding: 24px 0px 32px 32px;
+      margin-left: -32px;
       margin-bottom: 6px;
 
       position: sticky;
       top: -40px;
-      background-color: var(--bg-color);
+      // background-color: var(--bg-color);
       backdrop-filter: blur(10px);
       // border-bottom: 1px inset;
       // margin-bottom: 12px;
@@ -121,6 +121,12 @@ const { page } = useData();
         grid-template-columns: 100%;
       }
     }
+  }
+}
+
+.dark {
+  .CCollection .category .list .item {
+    box-shadow: 0 3px 9px 0 rgb(0 0 0 / 70%);
   }
 }
 </style>

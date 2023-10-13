@@ -40,13 +40,13 @@ list:
         link: https://v2ex.com/
         image: https://v2ex.com/static/img/v2ex@2x.png
         date:
-      - title:
-        link:
-        image:
+      - title: ChatGPT is an AI-powered language model developed by OpenAI, capable of generating human-like text based on context and past conversations.
+        link: https://chat.openai.com/chat
+        image: https://chat.openai.com/apple-touch-icon.png
         date:
-      - title:
-        link:
-        image:
+      - title: Time.Graphics is the timeline maker wich provides you free with some limits and premium version without restrictions. Make a historical analysis in one click! Yup, it’s real! We present to your attention the amazing website!
+        link: https://time.graphics/
+        image: https://time.graphics/apple-touch-icon-180x180.png?v=7kbn8X5BAk
         date:
 
   - name: 开源项目
