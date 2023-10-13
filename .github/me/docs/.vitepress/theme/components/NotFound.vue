@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useData } from "vitepress";
+// import { useData } from "vitepress";
 
-const { site } = useData();
+// const { site } = useData();
 </script>
 
 <template>
@@ -14,7 +14,9 @@ const { site } = useData();
     </blockquote>
 
     <div class="action">
-      <a class="link" :href="site.base" aria-label="go to home"> 带我回家 </a>
+      <a class="link" href="/cllemon/writing" aria-label="go to home">
+        带我回家
+      </a>
     </div>
   </div>
 </template>
