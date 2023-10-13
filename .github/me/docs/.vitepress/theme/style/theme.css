@@ -7,3 +7,12 @@ p img {
   box-shadow: 0 3px 6px 0 rgb(0 0 0 / 30%);
   border-radius: 8px;
 }
+
+pre.shiki::-webkit-scrollbar {
+  height: 2px;
+}
+
+pre.shiki::-webkit-scrollbar-thumb {
+  background: #9e9e9e;
+  border-radius: 6px;
+}
